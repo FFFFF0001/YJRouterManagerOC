@@ -1,15 +1,11 @@
 #YJRouterManagerDemo
 
-[![Travis](https://img.shields.io/travis/YJManager/YJBannerViewOC.svg?style=flat)](https://github.com/YJManager/YJBannerViewOC.git)
+[![Travis](https://img.shields.io/travis/YJManager/YJRouterManagerOC.svg)](https://github.com/YJManager/YJRouterManagerOC.git)
 [![Language](https://img.shields.io/badge/Language-Objective--C-FF7F24.svg?style=flat)](https://github.com/YJManager/YJBannerViewOC.git)
-[![CocoaPods](https://img.shields.io/cocoapods/p/YJBannerView.svg?style=flat)](https://github.com/YJManager/YJBannerViewOC.git)
-[![CocoaPods](https://img.shields.io/cocoapods/v/YJBannerView.svg?style=flat)](https://github.com/YJManager/YJBannerViewOC.git)
-[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/YJManager/YJBannerViewOC.git)
-[![GitHub tag](https://img.shields.io/github/tag/YJManager/YJBannerViewOC.svg?style=flat)](https://github.com/YJManager/YJBannerViewOC.git)
-[![license](https://img.shields.io/github/license/YJManager/YJBannerViewOC.svg?style=flat)](https://github.com/YJManager/YJBannerViewOC.git)
+[![GitHub tag](https://img.shields.io/github/tag/eYJManager/YJRouterManagerOC.svg)](https://github.com/YJManager/YJRouterManagerOC.git)
 
 ### 效果
-<img src="https://github.com/YJManager/YJBannerViewOC/blob/master/YJBannerViewDemo/Resources/Effect.gif" width="300" height="533" />
+<img src="https://github.com/YJManager/YJRouterManagerOC/blob/master/YJRouterManagerDemo/Resource/bgAnimation.gif" width="300" height="533" />
 
 ### 使用方法
 #### 在 AppDelegate 初始化注册
@@ -30,7 +26,7 @@ return YES;
 
 #### 在 YJRouterManagerConfig.plist 配置映射关系 或者 在控制器中手动注册
 ##### 方式一
-<img src="https://github.com/YJManager/YJBannerViewOC/blob/master/YJBannerViewDemo/Resources/Effect.gif" width="300" height="533" />
+<img src="https://github.com/YJManager/YJRouterManagerOC/blob/master/YJRouterManagerDemo/Resource/routerPlist.png" width="729" height="311" />
 ##### 方式二
 ```objc
 + (void)load{
