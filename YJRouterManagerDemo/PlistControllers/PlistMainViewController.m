@@ -23,6 +23,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
     __weak typeof(self) weakSelf = self;
+    
     [YJRouterManager pushViewControllerUrl:@"yj://1101?userid=1024" parameter:@{@"name" : @"houmanager", @"email" : @"houmanager@hotmail.com"} navigationController:nil complete:^(UIViewController *toController) {
         ((PlistOneViewController *)toController).delegate = weakSelf;
     }];

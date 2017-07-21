@@ -158,7 +158,8 @@
 				63C519FC1F21E1E4001F2AE3 /* RouterRootViewController.h */,
 				63C519FD1F21E1E4001F2AE3 /* RouterRootViewController.m */,
 			);
-			path = RouterRootViewController;
+			name = RouterRootViewController;
+			path = YJRouterManagerDemo/RouterRootViewController;
 			sourceTree = "<group>";
 		};
 		63C51A1A1F21E476001F2AE3 /* Resource */ = {
@@ -168,7 +169,8 @@
 				63C51A201F21F87E001F2AE3 /* routerPlist.png */,
 				63C51A1B1F21E476001F2AE3 /* YJRouterManagerConfig.plist */,
 			);
-			path = Resource;
+			name = Resource;
+			path = YJRouterManagerDemo/Resource;
 			sourceTree = "<group>";
 		};
 		63E8262D1F1F0D9800A71108 = {
@@ -177,6 +179,8 @@
 				63C51A1D1F21F412001F2AE3 /* README.md */,
 				63E826531F1F0E3C00A71108 /* YJRouterManager */,
 				63E826381F1F0D9800A71108 /* YJRouterManagerDemo */,
+				63C51A1A1F21E476001F2AE3 /* Resource */,
+				63C519FB1F21E1CF001F2AE3 /* RouterRootViewController */,
 				63E826371F1F0D9800A71108 /* Products */,
 				37460D8B2BA696C5ADFCE006 /* Pods */,
 				DC68F0C92348C637FE76E61A /* Frameworks */,
@@ -194,13 +198,11 @@
 		63E826381F1F0D9800A71108 /* YJRouterManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				63C51A1A1F21E476001F2AE3 /* Resource */,
-				63C519FB1F21E1CF001F2AE3 /* RouterRootViewController */,
+				63E8263C1F1F0D9800A71108 /* AppDelegate.h */,
+				63E8263D1F1F0D9800A71108 /* AppDelegate.m */,
 				63C519F01F21E032001F2AE3 /* PlistControllers */,
 				63C519F11F21E032001F2AE3 /* RegisterControllers */,
 				63C519EF1F21E032001F2AE3 /* HybridControllers */,
-				63E8263C1F1F0D9800A71108 /* AppDelegate.h */,
-				63E8263D1F1F0D9800A71108 /* AppDelegate.m */,
 				63E826391F1F0D9800A71108 /* Supporting Files */,
 			);
 			path = YJRouterManagerDemo;
