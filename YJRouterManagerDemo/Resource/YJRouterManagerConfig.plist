@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1101</key>
+	<dict>
+		<key>className</key>
+		<string>PlistOneViewController</string>
+		<key>description</key>
+		<string>第一个控制器</string>
+	</dict>
+	<key>1102</key>
+	<dict>
+		<key>className</key>
+		<string>PlistTwoViewController</string>
+		<key>description</key>
+		<string>第二个控制器</string>
+	</dict>
+	<key>1103</key>
+	<dict>
+		<key>className</key>
+		<string>PlistThreeViewController</string>
+		<key>description</key>
+		<string>第三个控制器</string>
+	</dict>
+	<key>H1102</key>
+	<dict>
+		<key>className</key>
+		<string>HybridTwoViewController</string>
+		<key>description</key>
+		<string>混合第二个控制器</string>
+	</dict>
+</dict>
+</plist>

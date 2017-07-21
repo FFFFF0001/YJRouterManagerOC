@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63C519F41F21E051001F2AE3 /* PlistMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C519F31F21E051001F2AE3 /* PlistMainViewController.m */; };
+		63C519F71F21E086001F2AE3 /* RegisterMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C519F61F21E086001F2AE3 /* RegisterMainViewController.m */; };
+		63C519FA1F21E0F5001F2AE3 /* HybridMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C519F91F21E0F5001F2AE3 /* HybridMainViewController.m */; };
+		63C519FE1F21E1E4001F2AE3 /* RouterRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C519FD1F21E1E4001F2AE3 /* RouterRootViewController.m */; };
+		63C51A011F21E236001F2AE3 /* PlistOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C51A001F21E236001F2AE3 /* PlistOneViewController.m */; };
+		63C51A041F21E24B001F2AE3 /* PlistTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C51A031F21E24B001F2AE3 /* PlistTwoViewController.m */; };
+		63C51A071F21E25B001F2AE3 /* PlistThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C51A061F21E25B001F2AE3 /* PlistThreeViewController.m */; };
+		63C51A0A1F21E2B6001F2AE3 /* RegisterOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C51A091F21E2B6001F2AE3 /* RegisterOneViewController.m */; };
+		63C51A0D1F21E2C3001F2AE3 /* RegisterTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C51A0C1F21E2C3001F2AE3 /* RegisterTwoViewController.m */; };
+		63C51A101F21E2D1001F2AE3 /* RegisterThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C51A0F1F21E2D1001F2AE3 /* RegisterThreeViewController.m */; };
+		63C51A131F21E30F001F2AE3 /* HybridOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C51A121F21E30F001F2AE3 /* HybridOneViewController.m */; };
+		63C51A161F21E31E001F2AE3 /* HybridTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C51A151F21E31E001F2AE3 /* HybridTwoViewController.m */; };
+		63C51A191F21E32C001F2AE3 /* HybridThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C51A181F21E32C001F2AE3 /* HybridThreeViewController.m */; };
+		63C51A1C1F21E476001F2AE3 /* YJRouterManagerConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C51A1B1F21E476001F2AE3 /* YJRouterManagerConfig.plist */; };
+		63C51A1E1F21F412001F2AE3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 63C51A1D1F21F412001F2AE3 /* README.md */; };
+		63C51A211F21F87E001F2AE3 /* bgAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 63C51A1F1F21F87E001F2AE3 /* bgAnimation.gif */; };
+		63C51A221F21F87E001F2AE3 /* routerPlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C51A201F21F87E001F2AE3 /* routerPlist.png */; };
+		63E8263B1F1F0D9800A71108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E8263A1F1F0D9800A71108 /* main.m */; };
+		63E8263E1F1F0D9800A71108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E8263D1F1F0D9800A71108 /* AppDelegate.m */; };
+		63E826441F1F0D9800A71108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E826421F1F0D9800A71108 /* Main.storyboard */; };
+		63E826461F1F0D9800A71108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E826451F1F0D9800A71108 /* Assets.xcassets */; };
+		63E826491F1F0D9800A71108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E826471F1F0D9800A71108 /* LaunchScreen.storyboard */; };
+		63E826591F1F246000A71108 /* YJRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E826581F1F246000A71108 /* YJRouterManager.m */; };
+		63E8267B1F1F54B700A71108 /* YJRouterRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E8267A1F1F54B700A71108 /* YJRouterRequestManager.m */; };
+		63E826811F1F56C000A71108 /* UIViewController+YJRouterExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E826801F1F56C000A71108 /* UIViewController+YJRouterExt.m */; };
+		7FBF7BBF685C286C7CAEEFF8 /* libPods-YJRouterManagerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBBE9538A2D2737285D3F7F /* libPods-YJRouterManagerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0912616EAC48FE534E6C7274 /* Pods-YJRouterManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJRouterManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJRouterManagerDemo/Pods-YJRouterManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4BBBE9538A2D2737285D3F7F /* libPods-YJRouterManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJRouterManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C519F21F21E051001F2AE3 /* PlistMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistMainViewController.h; sourceTree = "<group>"; };
+		63C519F31F21E051001F2AE3 /* PlistMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistMainViewController.m; sourceTree = "<group>"; };
+		63C519F51F21E086001F2AE3 /* RegisterMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterMainViewController.h; sourceTree = "<group>"; };
+		63C519F61F21E086001F2AE3 /* RegisterMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterMainViewController.m; sourceTree = "<group>"; };
+		63C519F81F21E0F5001F2AE3 /* HybridMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybridMainViewController.h; sourceTree = "<group>"; };
+		63C519F91F21E0F5001F2AE3 /* HybridMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybridMainViewController.m; sourceTree = "<group>"; };
+		63C519FC1F21E1E4001F2AE3 /* RouterRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterRootViewController.h; sourceTree = "<group>"; };
+		63C519FD1F21E1E4001F2AE3 /* RouterRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterRootViewController.m; sourceTree = "<group>"; };
+		63C519FF1F21E236001F2AE3 /* PlistOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistOneViewController.h; sourceTree = "<group>"; };
+		63C51A001F21E236001F2AE3 /* PlistOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistOneViewController.m; sourceTree = "<group>"; };
+		63C51A021F21E24B001F2AE3 /* PlistTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistTwoViewController.h; sourceTree = "<group>"; };
+		63C51A031F21E24B001F2AE3 /* PlistTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistTwoViewController.m; sourceTree = "<group>"; };
+		63C51A051F21E25B001F2AE3 /* PlistThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistThreeViewController.h; sourceTree = "<group>"; };
+		63C51A061F21E25B001F2AE3 /* PlistThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistThreeViewController.m; sourceTree = "<group>"; };
+		63C51A081F21E2B6001F2AE3 /* RegisterOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterOneViewController.h; sourceTree = "<group>"; };
+		63C51A091F21E2B6001F2AE3 /* RegisterOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterOneViewController.m; sourceTree = "<group>"; };
+		63C51A0B1F21E2C3001F2AE3 /* RegisterTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterTwoViewController.h; sourceTree = "<group>"; };
+		63C51A0C1F21E2C3001F2AE3 /* RegisterTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterTwoViewController.m; sourceTree = "<group>"; };
+		63C51A0E1F21E2D1001F2AE3 /* RegisterThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterThreeViewController.h; sourceTree = "<group>"; };
+		63C51A0F1F21E2D1001F2AE3 /* RegisterThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterThreeViewController.m; sourceTree = "<group>"; };
+		63C51A111F21E30F001F2AE3 /* HybridOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybridOneViewController.h; sourceTree = "<group>"; };
+		63C51A121F21E30F001F2AE3 /* HybridOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybridOneViewController.m; sourceTree = "<group>"; };
+		63C51A141F21E31E001F2AE3 /* HybridTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybridTwoViewController.h; sourceTree = "<group>"; };
+		63C51A151F21E31E001F2AE3 /* HybridTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybridTwoViewController.m; sourceTree = "<group>"; };
+		63C51A171F21E32C001F2AE3 /* HybridThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybridThreeViewController.h; sourceTree = "<group>"; };
+		63C51A181F21E32C001F2AE3 /* HybridThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybridThreeViewController.m; sourceTree = "<group>"; };
+		63C51A1B1F21E476001F2AE3 /* YJRouterManagerConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YJRouterManagerConfig.plist; sourceTree = "<group>"; };
+		63C51A1D1F21F412001F2AE3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		63C51A1F1F21F87E001F2AE3 /* bgAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bgAnimation.gif; sourceTree = "<group>"; };
+		63C51A201F21F87E001F2AE3 /* routerPlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = routerPlist.png; sourceTree = "<group>"; };
+		63E826361F1F0D9800A71108 /* YJRouterManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJRouterManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E8263A1F1F0D9800A71108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63E8263C1F1F0D9800A71108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63E8263D1F1F0D9800A71108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63E826431F1F0D9800A71108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63E826451F1F0D9800A71108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63E826481F1F0D9800A71108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63E8264A1F1F0D9800A71108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E826571F1F246000A71108 /* YJRouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJRouterManager.h; sourceTree = "<group>"; };
+		63E826581F1F246000A71108 /* YJRouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJRouterManager.m; sourceTree = "<group>"; };
+		63E826651F1F3EEF00A71108 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		63E826791F1F54B700A71108 /* YJRouterRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJRouterRequestManager.h; sourceTree = "<group>"; };
+		63E8267A1F1F54B700A71108 /* YJRouterRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJRouterRequestManager.m; sourceTree = "<group>"; };
+		63E8267F1F1F56C000A71108 /* UIViewController+YJRouterExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YJRouterExt.h"; sourceTree = "<group>"; };
+		63E826801F1F56C000A71108 /* UIViewController+YJRouterExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YJRouterExt.m"; sourceTree = "<group>"; };
+		D3F982327D90530692D192BE /* Pods-YJRouterManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJRouterManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJRouterManagerDemo/Pods-YJRouterManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63E826331F1F0D9800A71108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FBF7BBF685C286C7CAEEFF8 /* libPods-YJRouterManagerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37460D8B2BA696C5ADFCE006 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0912616EAC48FE534E6C7274 /* Pods-YJRouterManagerDemo.debug.xcconfig */,
+				D3F982327D90530692D192BE /* Pods-YJRouterManagerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63C519EF1F21E032001F2AE3 /* HybridControllers */ = {
+			isa = PBXGroup;
+			children = (
+				63C519F81F21E0F5001F2AE3 /* HybridMainViewController.h */,
+				63C519F91F21E0F5001F2AE3 /* HybridMainViewController.m */,
+				63C51A111F21E30F001F2AE3 /* HybridOneViewController.h */,
+				63C51A121F21E30F001F2AE3 /* HybridOneViewController.m */,
+				63C51A141F21E31E001F2AE3 /* HybridTwoViewController.h */,
+				63C51A151F21E31E001F2AE3 /* HybridTwoViewController.m */,
+				63C51A171F21E32C001F2AE3 /* HybridThreeViewController.h */,
+				63C51A181F21E32C001F2AE3 /* HybridThreeViewController.m */,
+			);
+			path = HybridControllers;
+			sourceTree = "<group>";
+		};
+		63C519F01F21E032001F2AE3 /* PlistControllers */ = {
+			isa = PBXGroup;
+			children = (
+				63C519F21F21E051001F2AE3 /* PlistMainViewController.h */,
+				63C519F31F21E051001F2AE3 /* PlistMainViewController.m */,
+				63C519FF1F21E236001F2AE3 /* PlistOneViewController.h */,
+				63C51A001F21E236001F2AE3 /* PlistOneViewController.m */,
+				63C51A021F21E24B001F2AE3 /* PlistTwoViewController.h */,
+				63C51A031F21E24B001F2AE3 /* PlistTwoViewController.m */,
+				63C51A051F21E25B001F2AE3 /* PlistThreeViewController.h */,
+				63C51A061F21E25B001F2AE3 /* PlistThreeViewController.m */,
+			);
+			path = PlistControllers;
+			sourceTree = "<group>";
+		};
+		63C519F11F21E032001F2AE3 /* RegisterControllers */ = {
+			isa = PBXGroup;
+			children = (
+				63C519F51F21E086001F2AE3 /* RegisterMainViewController.h */,
+				63C519F61F21E086001F2AE3 /* RegisterMainViewController.m */,
+				63C51A081F21E2B6001F2AE3 /* RegisterOneViewController.h */,
+				63C51A091F21E2B6001F2AE3 /* RegisterOneViewController.m */,
+				63C51A0B1F21E2C3001F2AE3 /* RegisterTwoViewController.h */,
+				63C51A0C1F21E2C3001F2AE3 /* RegisterTwoViewController.m */,
+				63C51A0E1F21E2D1001F2AE3 /* RegisterThreeViewController.h */,
+				63C51A0F1F21E2D1001F2AE3 /* RegisterThreeViewController.m */,
+			);
+			path = RegisterControllers;
+			sourceTree = "<group>";
+		};
+		63C519FB1F21E1CF001F2AE3 /* RouterRootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63C519FC1F21E1E4001F2AE3 /* RouterRootViewController.h */,
+				63C519FD1F21E1E4001F2AE3 /* RouterRootViewController.m */,
+			);
+			path = RouterRootViewController;
+			sourceTree = "<group>";
+		};
+		63C51A1A1F21E476001F2AE3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				63C51A1F1F21F87E001F2AE3 /* bgAnimation.gif */,
+				63C51A201F21F87E001F2AE3 /* routerPlist.png */,
+				63C51A1B1F21E476001F2AE3 /* YJRouterManagerConfig.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		63E8262D1F1F0D9800A71108 = {
+			isa = PBXGroup;
+			children = (
+				63C51A1D1F21F412001F2AE3 /* README.md */,
+				63E826531F1F0E3C00A71108 /* YJRouterManager */,
+				63E826381F1F0D9800A71108 /* YJRouterManagerDemo */,
+				63E826371F1F0D9800A71108 /* Products */,
+				37460D8B2BA696C5ADFCE006 /* Pods */,
+				DC68F0C92348C637FE76E61A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63E826371F1F0D9800A71108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63E826361F1F0D9800A71108 /* YJRouterManagerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63E826381F1F0D9800A71108 /* YJRouterManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				63C51A1A1F21E476001F2AE3 /* Resource */,
+				63C519FB1F21E1CF001F2AE3 /* RouterRootViewController */,
+				63C519F01F21E032001F2AE3 /* PlistControllers */,
+				63C519F11F21E032001F2AE3 /* RegisterControllers */,
+				63C519EF1F21E032001F2AE3 /* HybridControllers */,
+				63E8263C1F1F0D9800A71108 /* AppDelegate.h */,
+				63E8263D1F1F0D9800A71108 /* AppDelegate.m */,
+				63E826391F1F0D9800A71108 /* Supporting Files */,
+			);
+			path = YJRouterManagerDemo;
+			sourceTree = "<group>";
+		};
+		63E826391F1F0D9800A71108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63E826421F1F0D9800A71108 /* Main.storyboard */,
+				63E826451F1F0D9800A71108 /* Assets.xcassets */,
+				63E826471F1F0D9800A71108 /* LaunchScreen.storyboard */,
+				63E8264A1F1F0D9800A71108 /* Info.plist */,
+				63E8263A1F1F0D9800A71108 /* main.m */,
+				63E826651F1F3EEF00A71108 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63E826531F1F0E3C00A71108 /* YJRouterManager */ = {
+			isa = PBXGroup;
+			children = (
+				63E826571F1F246000A71108 /* YJRouterManager.h */,
+				63E826581F1F246000A71108 /* YJRouterManager.m */,
+				63E826791F1F54B700A71108 /* YJRouterRequestManager.h */,
+				63E8267A1F1F54B700A71108 /* YJRouterRequestManager.m */,
+				63E8267F1F1F56C000A71108 /* UIViewController+YJRouterExt.h */,
+				63E826801F1F56C000A71108 /* UIViewController+YJRouterExt.m */,
+			);
+			path = YJRouterManager;
+			sourceTree = "<group>";
+		};
+		DC68F0C92348C637FE76E61A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BBBE9538A2D2737285D3F7F /* libPods-YJRouterManagerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63E826351F1F0D9800A71108 /* YJRouterManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E8264D1F1F0D9800A71108 /* Build configuration list for PBXNativeTarget "YJRouterManagerDemo" */;
+			buildPhases = (
+				0FFBD529EAF3F0D3E259D912 /* [CP] Check Pods Manifest.lock */,
+				63E826321F1F0D9800A71108 /* Sources */,
+				63E826331F1F0D9800A71108 /* Frameworks */,
+				63E826341F1F0D9800A71108 /* Resources */,
+				40A315CF95DE47D1FCAE961A /* [CP] Embed Pods Frameworks */,
+				4285D30593DFADC7C272994C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJRouterManagerDemo;
+			productName = YJRouterManagerDemo;
+			productReference = 63E826361F1F0D9800A71108 /* YJRouterManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63E8262E1F1F0D9800A71108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "侯跃军";
+				TargetAttributes = {
+					63E826351F1F0D9800A71108 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 33K3DU6932;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63E826311F1F0D9800A71108 /* Build configuration list for PBXProject "YJRouterManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63E8262D1F1F0D9800A71108;
+			productRefGroup = 63E826371F1F0D9800A71108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63E826351F1F0D9800A71108 /* YJRouterManagerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63E826341F1F0D9800A71108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C51A1C1F21E476001F2AE3 /* YJRouterManagerConfig.plist in Resources */,
+				63C51A221F21F87E001F2AE3 /* routerPlist.png in Resources */,
+				63C51A211F21F87E001F2AE3 /* bgAnimation.gif in Resources */,
+				63E826491F1F0D9800A71108 /* LaunchScreen.storyboard in Resources */,
+				63E826461F1F0D9800A71108 /* Assets.xcassets in Resources */,
+				63E826441F1F0D9800A71108 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FFBD529EAF3F0D3E259D912 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40A315CF95DE47D1FCAE961A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJRouterManagerDemo/Pods-YJRouterManagerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4285D30593DFADC7C272994C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJRouterManagerDemo/Pods-YJRouterManagerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63E826321F1F0D9800A71108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C51A0A1F21E2B6001F2AE3 /* RegisterOneViewController.m in Sources */,
+				63E826591F1F246000A71108 /* YJRouterManager.m in Sources */,
+				63E8263E1F1F0D9800A71108 /* AppDelegate.m in Sources */,
+				63C51A161F21E31E001F2AE3 /* HybridTwoViewController.m in Sources */,
+				63C51A011F21E236001F2AE3 /* PlistOneViewController.m in Sources */,
+				63C51A101F21E2D1001F2AE3 /* RegisterThreeViewController.m in Sources */,
+				63C519F71F21E086001F2AE3 /* RegisterMainViewController.m in Sources */,
+				63C51A071F21E25B001F2AE3 /* PlistThreeViewController.m in Sources */,
+				63C51A131F21E30F001F2AE3 /* HybridOneViewController.m in Sources */,
+				63C51A0D1F21E2C3001F2AE3 /* RegisterTwoViewController.m in Sources */,
+				63C519FA1F21E0F5001F2AE3 /* HybridMainViewController.m in Sources */,
+				63E8263B1F1F0D9800A71108 /* main.m in Sources */,
+				63E8267B1F1F54B700A71108 /* YJRouterRequestManager.m in Sources */,
+				63C51A1E1F21F412001F2AE3 /* README.md in Sources */,
+				63C51A191F21E32C001F2AE3 /* HybridThreeViewController.m in Sources */,
+				63C519FE1F21E1E4001F2AE3 /* RouterRootViewController.m in Sources */,
+				63C519F41F21E051001F2AE3 /* PlistMainViewController.m in Sources */,
+				63C51A041F21E24B001F2AE3 /* PlistTwoViewController.m in Sources */,
+				63E826811F1F56C000A71108 /* UIViewController+YJRouterExt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63E826421F1F0D9800A71108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E826431F1F0D9800A71108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63E826471F1F0D9800A71108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E826481F1F0D9800A71108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63E8264B1F1F0D9800A71108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63E8264C1F1F0D9800A71108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63E8264E1F1F0D9800A71108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0912616EAC48FE534E6C7274 /* Pods-YJRouterManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33K3DU6932;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YJRouterManagerDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = YJRouterManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houmanager.de;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		63E8264F1F1F0D9800A71108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3F982327D90530692D192BE /* Pods-YJRouterManagerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33K3DU6932;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YJRouterManagerDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = YJRouterManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houmanager.de;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63E826311F1F0D9800A71108 /* Build configuration list for PBXProject "YJRouterManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E8264B1F1F0D9800A71108 /* Debug */,
+				63E8264C1F1F0D9800A71108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E8264D1F1F0D9800A71108 /* Build configuration list for PBXNativeTarget "YJRouterManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E8264E1F1F0D9800A71108 /* Debug */,
+				63E8264F1F1F0D9800A71108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63E8262E1F1F0D9800A71108 /* Project object */;
+}

@@ -1,0 +1,21 @@
+//
+//  PlistOneViewController.h
+//  YJRouterManagerDemo
+//
+//  Created by YJHou on 2017/5/19.
+//  Copyright © 2017年 侯跃军. All rights reserved.
+//
+
+#import "RouterRootViewController.h"
+
+@protocol PlistOneViewControllerDelegate <NSObject>
+
+- (void)oneControllerName:(NSString *)oneControllerName;
+
+@end
+
+@interface PlistOneViewController : RouterRootViewController
+
+@property (nonatomic, weak) id<PlistOneViewControllerDelegate> delegate; /**< 代理 */
+
+@end
