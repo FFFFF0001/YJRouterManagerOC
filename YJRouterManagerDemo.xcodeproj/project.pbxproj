@@ -21,7 +21,6 @@
 		63C51A161F21E31E001F2AE3 /* HybridTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C51A151F21E31E001F2AE3 /* HybridTwoViewController.m */; };
 		63C51A191F21E32C001F2AE3 /* HybridThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C51A181F21E32C001F2AE3 /* HybridThreeViewController.m */; };
 		63C51A1C1F21E476001F2AE3 /* YJRouterManagerConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C51A1B1F21E476001F2AE3 /* YJRouterManagerConfig.plist */; };
-		63C51A1E1F21F412001F2AE3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 63C51A1D1F21F412001F2AE3 /* README.md */; };
 		63C51A211F21F87E001F2AE3 /* bgAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 63C51A1F1F21F87E001F2AE3 /* bgAnimation.gif */; };
 		63C51A221F21F87E001F2AE3 /* routerPlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C51A201F21F87E001F2AE3 /* routerPlist.png */; };
 		63E8263B1F1F0D9800A71108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E8263A1F1F0D9800A71108 /* main.m */; };
@@ -65,7 +64,6 @@
 		63C51A171F21E32C001F2AE3 /* HybridThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybridThreeViewController.h; sourceTree = "<group>"; };
 		63C51A181F21E32C001F2AE3 /* HybridThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybridThreeViewController.m; sourceTree = "<group>"; };
 		63C51A1B1F21E476001F2AE3 /* YJRouterManagerConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YJRouterManagerConfig.plist; sourceTree = "<group>"; };
-		63C51A1D1F21F412001F2AE3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		63C51A1F1F21F87E001F2AE3 /* bgAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bgAnimation.gif; sourceTree = "<group>"; };
 		63C51A201F21F87E001F2AE3 /* routerPlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = routerPlist.png; sourceTree = "<group>"; };
 		63E826361F1F0D9800A71108 /* YJRouterManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJRouterManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,7 +174,6 @@
 		63E8262D1F1F0D9800A71108 = {
 			isa = PBXGroup;
 			children = (
-				63C51A1D1F21F412001F2AE3 /* README.md */,
 				63E826531F1F0E3C00A71108 /* YJRouterManager */,
 				63E826381F1F0D9800A71108 /* YJRouterManagerDemo */,
 				63C51A1A1F21E476001F2AE3 /* Resource */,
@@ -381,7 +378,6 @@
 				63C519FA1F21E0F5001F2AE3 /* HybridMainViewController.m in Sources */,
 				63E8263B1F1F0D9800A71108 /* main.m in Sources */,
 				63E8267B1F1F54B700A71108 /* YJRouterRequestManager.m in Sources */,
-				63C51A1E1F21F412001F2AE3 /* README.md in Sources */,
 				63C51A191F21E32C001F2AE3 /* HybridThreeViewController.m in Sources */,
 				63C519FE1F21E1E4001F2AE3 /* RouterRootViewController.m in Sources */,
 				63C519F41F21E051001F2AE3 /* PlistMainViewController.m in Sources */,
