@@ -27,6 +27,7 @@ return YES;
 #### 在 YJRouterManagerConfig.plist 配置映射关系 或者 在控制器中手动注册
 ##### Plist 方式
 <img src="https://github.com/YJManager/YJRouterManagerOC/blob/master/YJRouterManagerDemo/Resource/routerPlist.png" width="729" height="311" />
+
 ##### 控制器注册方式
 
 ```objc
