@@ -1,4 +1,4 @@
-version = "0.0.1";
+version = "0.0.2";
 
 Pod::Spec.new do |s|
 
@@ -13,8 +13,7 @@ Pod::Spec.new do |s|
     s.author       = { "houmanager" => "houmanager@Hotmail.com" }
     s.platform     = :ios, "8.0"
     s.source       = { :git => "https://github.com/YJManager/YJRouterManagerOC.git", :tag => "#{version}"}
-    s.source_files  = "YJRouterManager/*.{h,m}"
-    # s.resource     = 'YJBannerView/Resource/YJBannerView.bundle
+    s.source_files  = "YJRouterManager/**/*.{h,m}"
     s.requires_arc = true
 
 end
