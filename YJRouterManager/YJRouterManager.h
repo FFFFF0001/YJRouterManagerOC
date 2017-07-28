@@ -10,6 +10,8 @@
 #import "YJRouterRequestManager.h"
 #import "UIViewController+YJRouterExt.h"
 
+/** 版本 0.0.1 */
+
 @interface YJRouterManager : NSObject
 
 @property (nonatomic, copy, readonly) NSString *router_main_scheme; /**< 协议名称 默认是 yj:// */
