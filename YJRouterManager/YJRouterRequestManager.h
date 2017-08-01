@@ -6,7 +6,7 @@
 //  Copyright © 2017年 侯跃军. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, YJRouterShowType) {
     PUSH = 0,                   // PUSH

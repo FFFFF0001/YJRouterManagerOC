@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YJRouterManager.h"
+
 
 @interface RouterRootViewController : UIViewController
 

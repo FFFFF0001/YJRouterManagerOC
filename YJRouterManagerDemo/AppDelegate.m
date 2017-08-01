@@ -10,6 +10,7 @@
 #import "PlistMainViewController.h"
 #import "RegisterMainViewController.h"
 #import "HybridMainViewController.h"
+#import "YJRouterManager.h"
 
 @interface AppDelegate ()
 

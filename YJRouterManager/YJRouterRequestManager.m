@@ -7,6 +7,7 @@
 //
 
 #import "YJRouterRequestManager.h"
+#import "YJRouterManager.h"
 
 @implementation YJRouterRequestManager
 
