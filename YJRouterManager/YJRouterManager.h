@@ -10,7 +10,7 @@
 #import "YJRouterRequestManager.h"
 #import "UIViewController+YJRouterExt.h"
 
-/** 版本 0.0.1 */
+/** 路由器版本 0.0.1 */
 
 @interface YJRouterManager : NSObject
 
